@@ -6,7 +6,10 @@ How it works:
 
 ```bash
 % yo reax
-% cd your-project
+? Project name a-todo-list
+? Project description Yet another TODO app
+? Author name Randolf III
+% cd a-todo-list
 % npm install
 % npm start
 ```
