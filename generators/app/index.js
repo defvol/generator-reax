@@ -31,8 +31,6 @@ module.exports = generators.Base.extend({
       this.appname = this.project;
       this.year = (new Date()).getYear() + 1900;
 
-      console.log('date is', this.year);
-
       done();
     }.bind(this));
   },
@@ -49,6 +47,5 @@ module.exports = generators.Base.extend({
     this.template('package.json');
     this.template('README.md');
     this.copy('webpack.config.js');
-
   }
 });
