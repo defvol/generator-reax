@@ -45,13 +45,10 @@ module.exports = generators.Base.extend({
 
     this.copy('babelrc', '.babelrc');
     this.copy('gitignore', '.gitignore');
-    this.template('index.html');
-    this.copy('index.js');
     this.template('LICENSE');
     this.copy('Makefile');
     this.template('package.json');
     this.template('README.md');
-    this.copy('style.css');
     this.copy('webpack.config.js');
 
   },
