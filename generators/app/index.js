@@ -41,8 +41,7 @@ module.exports = generators.Base.extend({
 
     this.destinationRoot(this.appname);
 
-    this.directory('src');
-    this.directory('test');
+    this.directory('client');
 
     this.copy('babelrc', '.babelrc');
     this.copy('gitignore', '.gitignore');
