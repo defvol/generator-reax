@@ -46,7 +46,6 @@ module.exports = generators.Base.extend({
     this.copy('babelrc', '.babelrc');
     this.copy('gitignore', '.gitignore');
     this.template('LICENSE');
-    this.copy('Makefile');
     this.template('package.json');
     this.template('README.md');
     this.copy('webpack.config.js');
