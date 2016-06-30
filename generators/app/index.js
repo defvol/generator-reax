@@ -50,11 +50,5 @@ module.exports = generators.Base.extend({
     this.template('README.md');
     this.copy('webpack.config.js');
 
-  },
-  installing: function () {
-    this.log('Installing dependencies');
-    this.npmInstall(['redux'], { 'save': true });
-    this.npmInstall(['react-redux'], { 'save': true });
-    this.npmInstall(['tape'], { 'saveDev': true });
   }
 });
